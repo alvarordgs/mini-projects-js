@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator JS</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="calculator">
+    <div class="screen">
+      <span class="screen-text" id="screen-text"></span>
+    </div>
+    <ul class="box-buttons" id="box-buttons">
+      <li><input type="button" value="7" class="btn" onclick="insert('7')"></li>
+      <li><input type="button" value="8" class="btn" onclick="insert('8')"></li>
+      <li><input type="button" value="9" class="btn" onclick="insert('9')"></li>
+      <li><input type="button" value="Del" class="btn del" onclick="del()"></li>
+      <li><input type="button" value="4" class="btn" onclick="insert('4')"></li>
+      <li><input type="button" value="5" class="btn" onclick="insert('5')"></li>
+      <li><input type="button" value="6" class="btn" onclick="insert('6')"></li>
+      <li><input type="button" value="+" class="btn" onclick="insert('+')"></li>
+      <li><input type="button" value="1" class="btn" onclick="insert('1')"></li>
+      <li><input type="button" value="2" class="btn" onclick="insert('2')"></li>
+      <li><input type="button" value="3" class="btn" onclick="insert('3')"></li>
+      <li><input type="button" value="-" class="btn" onclick="insert('-')"></li>
+      <li><input type="button" value="." class="btn" onclick="insert('.')"></li>
+      <li><input type="button" value="0" class="btn" onclick="insert('0')"></li>
+      <li><input type="button" value="/" class="btn" onclick="insert('/')"></li>
+      <li><input type="button" value="x" class="btn" onclick="insert('*')"></li>
+      <li class="btn-maior">
+        <input type="button" value="Reset" class="btn btn-maior-style sin-reset" onclick="reset()">
+      </li>
+      <li class="btn-maior">
+        <input type="button" value="=" class="btn btn-maior-style sin-igual" onclick="result()">
+      </li>
+    </ul>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
