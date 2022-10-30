@@ -1,7 +1,5 @@
 import Countdown from "./contador.js";
 
-console.log(new Date());
-
 const tempoParaCopa = new Countdown("24 November 2022 20:00:00 GMT+0200");
 const tempos = document.querySelectorAll("[data-time]");
 
