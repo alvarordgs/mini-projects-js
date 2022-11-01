@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  min-width: 440px;
+  background: #ccc;
+  padding: 40px;
+  border-radius: 6px;
+}
+
+.box h1 {
+  margin-bottom: 20px;
+}
+
+.res {
+  min-height: 20px;
+}
