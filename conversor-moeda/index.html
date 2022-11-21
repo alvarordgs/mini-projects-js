@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- JavaScript Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Conversor de moedas</h1>
+        <div class="coluna">
+            <div>
+                <input type="text" id="valor" placeholder="Insira o valor em R$">
+            </div>
+            <div class="box-tipo-moeda">
+                <input type="radio" id="euro" name="moeda" checked>
+                <label for="euro">Euro</label>
+            </div>
+            <div class="box-tipo-moeda">
+                <input type="radio" id="dolar" name="moeda">
+                <label for="dolar">Dólar</label>
+            </div>
+            <div class="box-tipo-moeda">
+                <input type="radio" id="libra" name="moeda">
+                <label for="libra">Libra</label>
+            </div>
+        </div>
+        <div class="coluna-icone">
+            <button class="converter" id="converter"><i data-feather="arrow-right"></i></button>
+        </div>
+        <div class="coluna">
+            <input type="text" id="res">
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
